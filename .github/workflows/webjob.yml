@@ -9,8 +9,8 @@ on:
 env:
   WEBJOB_NAME: WebJob
   AZURE_APP_NAME: githubwebappcicd
-  PROJECT_ROOT: https://githubwebappcicd.azurewebsites.net
-  TEST_PROJECT_ROOT: https://githubwebappcicd.scm.azurewebsites.net/azurejobs/#/jobs
+  PROJECT_ROOT: webapp/webapp.csproj
+  TEST_PROJECT_ROOT: webapp/webapp.csproj
   DOTNET_VERSION: '6.0'
 
 jobs:
