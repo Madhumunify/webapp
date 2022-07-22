@@ -10,7 +10,7 @@ env:
   WEBJOB_NAME: WebJob
   AZURE_APP_NAME: githubwebappcicd
   PROJECT_ROOT: webapp/webapp.csproj
-  TEST_PROJECT_ROOT: webapp/webapp.csproj.Project.Root.Tests
+  TEST_PROJECT_ROOT: webapp/webapp.csproj
   DOTNET_VERSION: '6.0'
 
 jobs:
